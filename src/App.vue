@@ -13,8 +13,8 @@ export default {
 	data() {
 		return {
 			user: {
-				name: '',
-				age: '',
+				name: 'John',
+				age: 0,
 			},
 		};
 	},
@@ -22,7 +22,7 @@ export default {
 		addUserDetails(userName, userAge) {
 			const user = {
 				name: userName,
-				age: userAge,
+				age: +userAge,
 			};
 			this.user = user;
 		},

@@ -8,7 +8,3 @@ app.component('active-user', ActiveUser);
 app.component('user-data', UserData);
 
 app.mount('#app');
-
-// Task 3: Add user data and ensure it contains a name and age
-// User data should be output in ActiveUser
-// It should be updated via the UserData component

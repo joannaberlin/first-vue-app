@@ -13,7 +13,7 @@ export default {
 			required: true,
 		},
 		userAge: {
-			type: String,
+			type: Number,
 			required: true,
 		},
 	},
